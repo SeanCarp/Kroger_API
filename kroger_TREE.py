@@ -22,9 +22,6 @@ class Node:
             if child.lower() == item.__str__():
                 return item
         
-    def __str__(self):
-        return self.data
-
 
 # Root Initialization
 def root_init():
